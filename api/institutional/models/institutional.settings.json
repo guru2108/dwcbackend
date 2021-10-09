@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "institutionals",
+  "info": {
+    "name": "institutional"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact": {
+      "type": "email"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "libraries",
+  "info": {
+    "name": "library"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact": {
+      "type": "email"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

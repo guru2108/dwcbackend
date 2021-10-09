@@ -12,10 +12,10 @@ module.exports = {
     let entity;
     if (ctx.is('multipart')) {
       const { data, files } = parseMultipartData(ctx);
-      entity = await strapi.services.subscription.create(data, { files });
+      entity = await strapi.services.individual.create(data, { files });
     } else {
-      entity = await strapi.services.subscription.create(ctx.request.body);
+      entity = await strapi.services.individual.create(ctx.request.body);
     }
-    return sanitizeEntity(entity, { model: strapi.models.subscription });
+    return sanitizeEntity(entity, { model: strapi.models.individual });
   },
 };

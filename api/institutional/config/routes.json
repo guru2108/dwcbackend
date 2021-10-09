@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/subscriptions",
-      "handler": "subscription.find",
+      "path": "/institutionals",
+      "handler": "institutional.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/subscriptions/count",
-      "handler": "subscription.count",
+      "path": "/institutionals/count",
+      "handler": "institutional.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/subscriptions/:id",
-      "handler": "subscription.findOne",
+      "path": "/institutionals/:id",
+      "handler": "institutional.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/subscriptions",
-      "handler": "subscription.create",
+      "path": "/institutionals",
+      "handler": "institutional.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/subscriptions/:id",
-      "handler": "subscription.update",
+      "path": "/institutionals/:id",
+      "handler": "institutional.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/subscriptions/:id",
-      "handler": "subscription.delete",
+      "path": "/institutionals/:id",
+      "handler": "institutional.delete",
       "config": {
         "policies": []
       }
